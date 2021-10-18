@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Reverse Text</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/reverse.css">
+   
+   
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Reverse Text</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="code.html">Code</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <main class="flex-shrink-0">
+        <div class="container col-xxl-8 px-4 py-5">
+            <img src="img/reversetext.png" alt="Nature" class="img-fluid">
+            
+                <div class="row mb-1">
+                    <h2 class="text-light text-center">Enter a string to be reversed</h2>
+                    <div class="col">
+                        <label class="text-light">Enter a string</label>
+                        <input id="value" type="text" name="reverseMe" class="form-control" placeholder=""
+                            aria-label="Subject" required>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="text-light">Results</label>
+                        <textarea id="result" type="text" name="results" class="form-control" placeholder=""
+                            aria-label="Message" required></textarea>
+                    </div>
+                    <label><span></span><input onkeyup="revMe()" onclick="revMe()" type="submit" class="btn mt-2 btn-dark"value="Reverse Me" /></label>
+                </div>
+             
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark sticky-footer">
+        <div class="container-fluid text-center">
+            <span class="text-muted"><p>Created by <strong>Joshua Tingler</strong> <span class="copyright">| &copy; All Rights Reserved 2021</span></p></span>
+        </div>
+    </footer>
+    <script src="js/Reverse.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
