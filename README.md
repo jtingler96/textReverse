@@ -1,2 +1,2 @@
-# ReverseText
-Reverses an entered string
+# JsSiteTemplate
+Site Template for JS projects
